@@ -11,6 +11,7 @@ Hari 11-15: Struktur Kendali (if-else, switch case) dan perulangan (for, while).
 
 Hari 16-20: Fungsi (Function). Pahami cara membuat fungsi, parameter, dan return value.
 
+
 🔵 Fase 2: DOM & Interaktivitas Web (Hari 21-40)
 Di sini kamu mulai menghubungkan JS dengan HTML/CSS.
 
@@ -22,6 +23,7 @@ Hari 31-35: Manipulasi Elemen. Mengubah teks, warna, hingga menambah/menghapus C
 
 Hari 36-40: Proyek Kecil 1: Membuat Kalkulator Sederhana atau To-Do List yang datanya hilang kalau di-refresh.
 
+
 🟡 Fase 3: Intermediate & ES6+ (Hari 41-60)
 Masuk ke fitur modern JavaScript yang membuat koding lebih efisien.
 
@@ -32,6 +34,7 @@ Hari 46-50: Arrow Functions dan Template Literals.
 Hari 51-55: Destructuring, Spread, dan Rest Operator.
 
 Hari 56-60: Mengenal LocalStorage agar data To-Do List kamu tidak hilang meski browser ditutup.
+
 
 🟠 Fase 4: Asynchronous & API (Hari 61-80)
 Ini adalah "jantung" dari aplikasi modern. Penting untuk proyek seperti AnimeLib.
