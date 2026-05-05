@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar js1</title>
+</head>
+<body>
+    <p>menampilkan jam secara realtime</p>
+    <div id="jam"></div>
+    <p>menampilkan tanggal secara realtime</p>
+    <div id="tanggal"></div>
+    <script>
+        function tampilkanjam() {
+            var waktu = new Date();
+            var jam = waktu.getHours();
+            var menit = waktu.getMinutes();
+            var detik = waktu.getSeconds();
+
+            if (jam < 10) {
+                jam = "0" + jam;
+            }
+            if (menit < 10) {
+                menit = "0" + menit;
+            }
+            if (detik < 10) {
+                detik = "0" + detik;
+            }
+            document.getElementById("jam").innerHTML = jam + ":" + menit + ":" + detik;
+        }
+        setInterval(tampilkanjam, 1000);
+
+        function tampilkanTanggal() {
+            var tanggal = new Date();
+            var hari = tanggal.getDate();
+            var bulan = tanggal.getMonth() + 1;
+            var tahun = tanggal.getFullYear();
+
+            if (hari < 10) {
+                hari = "0" + hari;
+            }
+            if (bulan < 10) {
+                bulan = "0" + bulan;
+            }
+            if (tahun < 10) {
+                tahun = "0" + tahun;    
+            }
+            document.getElementById("tanggal").innerHTML = hari + "/" + bulan + "/" + tahun;
+        }
+        setInterval(tampilkanTanggal, 1000);
+    </script>
+</body>
+</html>
